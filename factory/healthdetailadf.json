@@ -1,0 +1,15 @@
+{
+	"name": "healthdetailadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35f84dde-c9fb-4f79-8e61-30205078c91b",
+		"tenantId": "4943b782-c0f7-4cd7-b22c-d7754a87a13b"
+	}
+}

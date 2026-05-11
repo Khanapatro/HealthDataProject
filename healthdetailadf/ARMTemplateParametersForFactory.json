@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "healthdetailadf"
+		},
+		"AzureDatabricksDeltaLake_accessToken": {
+			"value": ""
+		},
+		"database_ls_password": {
+			"value": ""
+		},
+		"hospitalstorage_accountKey": {
+			"value": ""
+		},
+		"database_ls_properties_typeProperties_server": {
+			"value": "hospitalsserver.database.windows.net"
+		},
+		"database_ls_properties_typeProperties_database": {
+			"value": "@{linkedService().db_name}"
+		},
+		"database_ls_properties_typeProperties_userName": {
+			"value": "hospitaladmin"
+		},
+		"hospitalstorage_properties_typeProperties_url": {
+			"value": "https://healthdetails.dfs.core.windows.net/"
+		}
+	}
+}
